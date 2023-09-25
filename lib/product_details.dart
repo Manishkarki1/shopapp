@@ -100,13 +100,18 @@ class _ProductDetailState extends State<ProductDetail> {
                       minimumSize: Size(double.infinity, 50)),
                   onPressed: () {},
                   child: ListTile(
-                    leading: Icon(Icons.gif_box),
-                    title: Text(
-                      'Add To Cart',
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16),
+                    leading: Icon(
+                      Icons.shopping_cart,
+                      size: 32,
+                    ),
+                    title: Center(
+                      child: Text(
+                        'Add To Cart',
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16),
+                      ),
                     ),
                   ),
                 ),

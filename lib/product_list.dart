@@ -18,7 +18,7 @@ final products = [
     'title': 'Nike shoes for men',
     'price': 2500,
     'sizes': [8, 9, 10, 11],
-    'imageUrl': 'assets/image/shoes3.jpg',
+    'imageUrl': 'assets/image/shoes5.jpg',
   },
   {
     'id': '3',
@@ -32,7 +32,7 @@ final products = [
     'title': 'Addidas shoe for Men',
     'price': 1348,
     'sizes': [8, 9, 10, 11],
-    'imageUrl': 'assets/image/shoes5.jpg',
+    'imageUrl': 'assets/image/shoes3.jpg',
   },
 ];
 final cart = [
@@ -40,7 +40,7 @@ final cart = [
     'id': '4',
     'title': 'Addidas shoe for Men',
     'price': 1348,
-    'sizes': [8, 9, 10, 11],
-    'imageUrl': 'assets/image/shoes5.jpg',
+    'sizes': 9,
+    'imageUrl': 'assets/image/shoes3.jpg',
   },
 ];
