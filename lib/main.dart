@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:shopapp/home.dart';
+import 'package:shopapp/pages/home.dart';
 // import 'package:shopapp/product_details.dart';
 // import 'package:shopapp/product_list.dart';
-import 'package:shopapp/provider.dart';
+import 'package:shopapp/providers/provider.dart';
 import 'package:provider/provider.dart';
 
 void main() => runApp(const MyApp());
